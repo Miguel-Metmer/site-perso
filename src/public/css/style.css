@@ -137,9 +137,59 @@ nav ul li a
     color: whitesmoke;
 }
 
-.projects
+.project
+{
+    width: 100%;
+}
+
+.project h3
 {
     text-align: center;
+    margin-top: 1% ;
+}
+
+.projects
+{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.projects figure
+{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+    margin: 5% auto;
+    border-radius: 15px;
+    background-color: #d0d7e957;
+}
+.projects figure i
+{
+    font-size: 5em;
+    margin: 5% 0;
+}
+
+.projects figure figcaption
+{
+    text-align: center;
+    padding-bottom: 10%;
+}
+
+.projects figure figcaption a
+{
+    text-decoration: none;
+    color: black;
+    background-color: royalblue;
+    border-radius: 15px;
+    padding: 5%;
+}
+
+.projects figure figcaption h5
+{
+    margin-bottom: 10%;
 }
 
 footer
