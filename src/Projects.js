@@ -17,7 +17,7 @@ export default class Projects extends React.Component
 
                     <div className="projects">
                         <figure>
-                            <i class="fab fa-html5"></i>
+                            <i className="fab fa-html5"></i>
                             <figcaption>
                                 <h5>Agence de création de média - Html/Css</h5>
                                 <a href="http://www.agency.web-aso.com/"> Aller sur le site </a>
@@ -25,7 +25,7 @@ export default class Projects extends React.Component
                         </figure>
 
                         <figure>
-                            <i class="fab fa-wordpress"></i>
+                            <i className="fab fa-wordpress"></i>
                             <figcaption>
                                 <h5>Site pour office de tourisme - Wordpress</h5>
                                 <a href="http://www.ireki.web-aso.com"> Aller sur le site </a>
@@ -33,7 +33,7 @@ export default class Projects extends React.Component
                         </figure>
 
                         <figure>
-                            <i class="fab fa-js-square"></i>
+                            <i className="fab fa-js-square"></i>
                             <figcaption>
                                 <h5> Réservation de vélos libre service - Javascript </h5>
                                 <a href="http://vimap.web-aso.com"> Aller sur le site </a>
@@ -41,7 +41,7 @@ export default class Projects extends React.Component
                         </figure>
 
                         <figure>
-                            <i class="fab fa-php"></i>
+                            <i className="fab fa-php"></i>
                             <figcaption>
                                 <h5> Site pour écrivain - Php</h5>
                                 <a href="http://blog.web-aso.com"> Aller sur le site </a>
@@ -49,7 +49,7 @@ export default class Projects extends React.Component
                         </figure>
                         
                         <figure>
-                            <i class="fab fa-symfony"></i>
+                            <i className="fab fa-symfony"></i>
                             <figcaption>
                                 <h5> Blog/forum d'actualité - Symfony</h5>
                                 <a href="http://news.web-aso.com"> Aller sur le site </a>
