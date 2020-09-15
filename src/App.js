@@ -4,6 +4,7 @@ import Nav from "./Nav";
 import Diaporama from "./Diaporama";
 import Projects from "./Projects";
 import Footer from "./Footer";
+import {Helmet} from "react-helmet";
 
 export default class App extends React.Component
 {

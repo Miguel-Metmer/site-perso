@@ -30,7 +30,9 @@ export default class Footer extends React.Component
         return(
             <>
                 <footer>
-                    <h6> {this.state.date.toLocaleString()} </h6>
+                    <h6>{this.state.date.toLocaleString()}</h6>
+                    <h6> <a href="mailto:Miguel.Metmer@miraevallis.com">Miguel.Metmer@miraevallis.com </a> | 03.22.93.09.44</h6>
+                    <h6> Copyright © {this.state.date.getFullYear()} Miguel Metmer tous droits réservés - Création Miguel Metmer </h6>
                 </footer>
             </>
         );
