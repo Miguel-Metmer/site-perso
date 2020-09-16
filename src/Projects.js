@@ -17,7 +17,7 @@ export default class Projects extends React.Component
     {
         return(
             <>
-                <section className="project">
+                <section className="project" id="project-anchor">
                     <h3>Projets</h3>
 
                     <div className="projects">

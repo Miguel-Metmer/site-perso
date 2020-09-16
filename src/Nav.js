@@ -15,9 +15,9 @@ export default class Nav extends React.Component
                 <nav>
                     <h4> <a href="">Miraevallis</a></h4>
                     <ul>
-                        <li> <a href="#">Projets</a> </li>
-                        <li> <a href="#">Technologies</a> </li>
-                        <li> <a href="#">Contact</a> </li>
+                        <li> <a href="#project-anchor">Projets</a> </li>
+                        {/* <li> <a href="#">Technologies</a> </li>
+                        <li> <a href="#">Contact</a> </li> */}
                     </ul>
                 </nav>
             </>
