@@ -3,9 +3,9 @@ import "./public/css/style.css";
 
 export default class Footer extends React.Component
 {
-    constructor(props)
+    constructor()
     {
-        super(props);
+        super();
         this.state = {
             date : new Date(),
         }

@@ -4,11 +4,6 @@ import image from "./public/images/image.jpg";
 
 export default class Diaporama extends React.Component
 {
-    constructor(props)
-    {
-        super(props);
-    };
-
     render()
     {
         return(

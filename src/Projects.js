@@ -8,11 +8,6 @@ import SiteE from "./public/images/Site5.png";
 
 export default class Projects extends React.Component
 {
-    constructor(props)
-    {
-        super(props);
-    };
-
     render()
     {
         return(
@@ -22,45 +17,45 @@ export default class Projects extends React.Component
 
                     <div className="projects">
                         <figure>
-                            <i className="fab fa-html5"></i>
                             <img src={SiteA} alt="SiteA"/>
                             <figcaption>
+                                <i className="fab fa-html5"></i>
                                 <h5>Agence de création de média - Html/Css</h5>
                                 <a href="http://www.agency.web-aso.com/"> Aller sur le site </a>
                             </figcaption>
                         </figure>
 
                         <figure>
-                            <i className="fab fa-wordpress"></i>
                             <img src={SiteB} alt="SiteA"/>
                             <figcaption>
-                                <h5>Site pour office de tourisme - Wordpress</h5>
+                                <i className="fab fa-wordpress"></i>
+                                <h5>Office de tourisme - Wordpress</h5>
                                 <a href="http://www.ireki.web-aso.com"> Aller sur le site </a>
                             </figcaption>
                         </figure>
 
                         <figure>
-                            <i className="fab fa-js-square"></i>
                             <img src={SiteC} alt="SiteA"/>
                             <figcaption>
-                                <h5> Réservation de vélos libre service - Javascript </h5>
+                                <i className="fab fa-js-square"></i>
+                                <h5> Réservation de vélos - Javascript </h5>
                                 <a href="http://vimap.web-aso.com"> Aller sur le site </a>
                             </figcaption>
                         </figure>
 
                         <figure>
-                            <i className="fab fa-php"></i>
                             <img src={SiteD} alt="SiteA"/>
                             <figcaption>
-                                <h5> Site pour écrivain - Php</h5>
+                                <i className="fab fa-php"></i>
+                                <h5> Blog écrivain - Php</h5>
                                 <a href="http://blog.web-aso.com"> Aller sur le site </a>
                             </figcaption>
                         </figure>
                         
                         <figure>
-                            <i className="fab fa-symfony"></i>
                             <img src={SiteE} alt="SiteA"/>
                             <figcaption>
+                                <i className="fab fa-symfony"></i>
                                 <h5> Blog/forum d'actualité - Symfony</h5>
                                 <a href="http://news.web-aso.com"> Aller sur le site </a>
                             </figcaption>
