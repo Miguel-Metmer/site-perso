@@ -76,7 +76,7 @@ nav
     margin-left: 10%;
     display: flex;
     position: absolute;
-    z-index: 100;
+    z-index: 2;
 }
 
 nav h4
@@ -121,7 +121,6 @@ nav ul li a:hover
 {
   margin: 0;
   position: relative;
-
   z-index: 1;
 }
 
@@ -142,18 +141,17 @@ nav ul li a:hover
     height: 100%;
     background-color: rgba(61, 81, 88, 0.418);
     z-index: 1000;
-
 }
 
 .diaporama figcaption h3
 {
     margin-top: 8%;
-    margin-left: 15%;
+    margin-left: 7%;
     color: whitesmoke;
 }
 .diaporama figcaption h4
 {
-    margin-left: 15%;
+    margin-left: 7%;
     color: white;
 }
 
@@ -198,7 +196,6 @@ nav ul li a:hover
     z-index: 2;
     position: absolute;
     text-align: center;
-    /* padding-bottom: 10%; */
     filter: drop-shadow(4px 4px 8px black);
     display: flex;
     flex-direction: column;
@@ -261,8 +258,23 @@ footer h6 a
     text-decoration: none;
 }
 
+.mobile-menu
+{
+    display: none;
+}
+
+.mobile-burger
+{
+    display: none;
+}
+
 @media all and (max-width: 1024px)
 {
+    header h6
+    {
+        font-size: larger;
+    }
+
     footer
     {
         display: flex;
@@ -281,40 +293,60 @@ footer h6 a
         margin-bottom: 25%;
     }
 
+    .diaporama figcaption
+    {
+        font-size: smaller;
+    }
+
     .diaporama img
     {
         height: auto;
     }
 
-    h1
+    nav
     {
-        font-size: 4.0em;
-        margin: 0;
-    }
-    h2
-    {
-        font-size: 4.0em;
-        margin: 0;
-    }
-    h3
-    {
-        font-size: 4.0vw;
-        margin: 0;
-    }
-    h4
-    {
-        font-size: 3.0vw;
-        margin: 0;
-    }
-    h5
-    {
-        font-size: 1.5em;
-        margin: 0;
-    }
-    h6
-    {
-        font-size: 1.0em;
-        margin: 0;
+        width: 100%;
+        margin-left: 0;
+        display: flex;
+        flex-direction: column;
     }
 
+    nav h4, .desktop-menu
+    {
+        display: none;
+    }
+
+    nav h5
+    {
+        margin-top: 25px;
+        margin-right: 40px;
+        font-size: xx-large;
+        align-self: flex-end;
+        z-index: 3;
+    }
+
+    .mobile-menu
+    {
+        width: 100%;
+        padding-left: 0;
+        background-color: rgba(0, 109, 128, 0.541);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .mobile-menu li a 
+    {
+        font-size: x-large;
+    }
+
+    .mobile-burger
+    {
+        display: initial;
+    }
+
+    .mobile-burger a 
+    {
+        text-decoration: none;
+        color: black;
+    }
 }
