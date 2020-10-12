@@ -21,7 +21,7 @@ export default class Projects extends React.Component
                             <figcaption>
                                 <i className="fab fa-html5"></i>
                                 <h5>Agence de création de média - Html/Css</h5>
-                                <a href="http://www.agency.web-aso.com/"> Aller sur le site </a>
+                                <a href="http://www.agency.miraevallis.com/"> Aller sur le site </a>
                             </figcaption>
                         </figure>
 
@@ -39,7 +39,7 @@ export default class Projects extends React.Component
                             <figcaption>
                                 <i className="fab fa-js-square"></i>
                                 <h5> Réservation de vélos - Javascript </h5>
-                                <a href="http://vimap.web-aso.com"> Aller sur le site </a>
+                                <a href="http://vimap.miraevallis.com"> Aller sur le site </a>
                             </figcaption>
                         </figure>
 
@@ -48,7 +48,7 @@ export default class Projects extends React.Component
                             <figcaption>
                                 <i className="fab fa-php"></i>
                                 <h5> Blog écrivain - Php</h5>
-                                <a href="http://blog.web-aso.com"> Aller sur le site </a>
+                                <a href="http://blog.miraevallis.com"> Aller sur le site </a>
                             </figcaption>
                         </figure>
                         
@@ -57,7 +57,7 @@ export default class Projects extends React.Component
                             <figcaption>
                                 <i className="fab fa-symfony"></i>
                                 <h5> Blog/forum d'actualité - Symfony</h5>
-                                <a href="http://news.web-aso.com"> Aller sur le site </a>
+                                <a href="http://news.miraevallis.com"> Aller sur le site </a>
                             </figcaption>
                         </figure>
                     </div>

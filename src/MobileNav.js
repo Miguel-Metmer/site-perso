@@ -15,8 +15,8 @@ export default class MobileNav extends React.Component
                 <nav>
                     <ul className="mobile-menu">
                         <li> <a href="#project-anchor">Projets</a> </li>
-                        <li> <a href="#">Technologies</a> </li>
-                        <li> <a href="#">Contact</a> </li> 
+                        <li> <a href="#technology-anchor">Technologies</a> </li>
+                        {/* <li> <a href="#">Contact</a> </li>  */}
                     </ul>
                 </nav>
             </>

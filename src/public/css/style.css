@@ -29,6 +29,41 @@ h6
     margin: 0;
 }
 
+.color-red
+{
+    color: red;
+}
+
+.color-blue-dark
+{
+    color: blue;
+}
+
+.color-blue
+{
+    color: rgb(0, 119, 255);
+}
+
+.color-blue-light
+{
+    color: cyan;
+}
+
+.color-green
+{
+    color: green;
+}
+
+.color-orange
+{
+    color: orange;
+}
+
+.color-yellow
+{
+    color: yellow;
+}
+
 .diaporama-color
 {
     color: teal;
@@ -85,6 +120,14 @@ nav h4
     width: 40%;
     padding: 0.50%;
     margin-left: 2%;
+}
+
+nav h4 img 
+{
+    width: 3%;
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 1%;
 }
 
 nav h4 a
@@ -159,13 +202,13 @@ nav ul li a:hover
 .project
 {
     width: 100%;
-    margin-bottom: 10%;
+    padding-bottom: ;
 }
 
-.project h3
+.project h3, .technology h3
 {
     text-align: center;
-    margin-top: 1% ;
+    padding-top: 2%;
 }
 
 .projects
@@ -182,6 +225,7 @@ nav ul li a:hover
     flex-direction: column;
     position: relative;
     width: 600px;
+    margin: 3%;
 }
 
 .projects figure img
@@ -230,7 +274,51 @@ nav ul li a:hover
     border-radius: 15px;
     padding: 1vh 1vw;
     margin-top: 3%;
-    font-size: 0.9em;
+    font-size: 1.0em;
+}
+
+.technology
+{
+    width: 100%;
+    padding-bottom: 5%;
+}
+
+.technology ul
+{
+    background-color: white;
+    box-shadow: 0px 1px 6px -4px;
+    border-radius: 15px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% auto;
+    padding: 0;
+}
+
+.technology ul li
+{
+    list-style-type: none;
+    width: 250px;
+    text-align: center;
+    margin: 5% 0;
+}
+
+.technology ul li i 
+{
+    font-size: 7em;
+}
+
+.technology ul li figure
+{
+    width: 100%;
+    margin: 0;
+}
+
+.technology ul li figure figcaption
+{
+    text-align: center;
+    margin-top: 2%;
 }
 
 footer
@@ -374,4 +462,15 @@ footer h6 a
         text-decoration: none;
         color: black;
     }
+
+    .technology
+    {
+        padding-bottom: 9%;
+    }
+    
+    .technology ul
+    {
+        width: 75%;
+    }
+
 }
