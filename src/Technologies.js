@@ -72,6 +72,18 @@ export default class Technologies extends React.Component
                                 <figcaption>Git</figcaption>
                             </figure>
                         </li>
+                        <li>
+                            <figure>
+                                <i class="fas fa-cash-register color-blue-dark"></i> 
+                                <figcaption>Wordpress</figcaption>
+                            </figure>
+                        </li>
+                        <li>
+                            <figure>
+                                <i class="fas fa-blog color-pink"></i> 
+                                <figcaption>Prestashop</figcaption>
+                            </figure>
+                        </li>
                     </ul>
                 </section>
             </>

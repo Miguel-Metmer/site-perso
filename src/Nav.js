@@ -32,7 +32,7 @@ export default class Nav extends React.Component
         return(
             <>
                 <nav>
-                    <h4>  <a href="https://www.miraevallis.com"> <img src={icon} alt="icon"/> </a> </h4>
+                    <h4>  <a href="https://www.presstech.fr"> <img src={icon} alt="icon"/> </a> </h4>
                     <ul className="desktop-menu">
                         <li> <a href="#project-anchor">Projets</a> </li>
                         <li> <a href="#technology-anchor">Technologies</a> </li>

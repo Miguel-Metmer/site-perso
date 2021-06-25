@@ -5,6 +5,7 @@ import SiteB from "./public/images/Site2.png";
 import SiteC from "./public/images/Site3.png";
 import SiteD from "./public/images/Site4.png";
 import SiteE from "./public/images/Site5.png";
+import SiteF from "./public/images/Site6.png";
 
 export default class Projects extends React.Component
 {
@@ -22,6 +23,15 @@ export default class Projects extends React.Component
                                 <i className="fab fa-html5"></i>
                                 <h5>Agence de création de média - Html/Css</h5>
                                 <a href="http://www.agency.miraevallis.com/"> Aller sur le site </a>
+                            </figcaption>
+                        </figure>
+
+                        <figure>
+                            <img src={SiteF} alt="SiteA"/>
+                            <figcaption>
+                                <i className="fab fa-desktop"></i>
+                                <h5>Les Jardins de Manthes - Wordpress</h5>
+                                <a href="https://www.jardins-manthes.fr/"> Aller sur le site </a>
                             </figcaption>
                         </figure>
 
